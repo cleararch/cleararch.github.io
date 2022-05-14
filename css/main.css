@@ -18,13 +18,17 @@ input {
 body {
     display: flex;
     flex-direction: column;
-    background: #F9F9F9;
+    background: #F3F3F3;
 }
 
 a {
     display: inline;
     color: inherit;
     transition: color 0.2s;
+}
+
+p {
+    margin: 2rem 0;
 }
 
 nav {
@@ -90,7 +94,17 @@ header .download a {
 }
 
 main {
-    padding: 0.67rem 5%;
-    line-height: 1.5rem;
+    padding: 1rem 5%;
+    line-height: 1.7rem;
     color: #252525;
+}
+
+main .box {
+    padding: 0.67rem 2rem;
+    line-height: 1.7rem;
+    background: #F9F9F9;
+}
+
+main .box:not(:last-of-type) {
+    margin-bottom: 1rem;
 }

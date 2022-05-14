@@ -1,0 +1,89 @@
+@import "./normalize.css";
+@import "./fontawesome.css";
+@import "./clearsans.css";
+
+*,
+*::after,
+*::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:root,
+input {
+    font-family: "ClearSans", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #F9F9F9;
+}
+
+a {
+    display: inline;
+    color: inherit;
+    transition: color 0.2s;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 5%;
+    color: #F9F9F9;
+    background: #2C3339;
+}
+
+nav span {
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav span a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav span a:not(:last-of-type) {
+    margin-right: 16px;
+}
+
+header {
+    padding: 75px 5%;
+    color: #F9F9F9;
+    background: url("/assets/images/cleararch.png") no-repeat right;
+    background-size: cover;
+}
+
+header>*:first-of-type {
+    margin-bottom: 25px;
+}
+
+header>*:last-of-type {
+    margin-top: 45px;
+}
+
+header .title {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+header .download {
+    padding: 8px 0;
+}
+
+header .download a {
+    padding: 8px 16px;
+    background: #33BFEF;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+main {
+    padding: 0.67rem 5%;
+    color: #252525;
+}

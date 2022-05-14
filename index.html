@@ -1,90 +1,75 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>clear-arch 首页 | Clear Arch</title>
-        <link rel="stylesheet" type="text/css" href="css/body.css">
-        <link rel="stylesheet" type="text/css" href="css/nav.css">
 
-        <style>
-            body{
-                margin: 0px;
-                padding: 0px;
-                background-color: #F8F8F8;
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="renderer" content="webkit" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
+    <title>首页 | Clear Arch</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
 
-                font-family: sans-serif;
-            }
-        </style>
-        <ul>
-            <li><img src="assets/icons/icon.svg" width="40" /></li>
-            <span>
-                <li><a href="/index.html">主页</a></li>
-                <li><a href="/download.html">下载</a></li>
-            </span>
-        </ul>
-    </head>
-    <body>
-        <div
-            class="head-image"
-            style="
-                background: url(/assets/images/cleararch.png) no-repeat center; 
-                background-size: cover;
-                width: 100%;
-                height: 400px
-                ">
-            <p style="
-                padding: 90px 0px 0px 15px; 
-                margin:0px; 
-                font-size: 35px; 
-                font-weight: bold; 
-                color: #F8F8F8
-            ">
-                Clear Arch
-            </p>
-            <p style="
-                padding: 20px 0px 80px 15px; 
-                margin:0px; 
-                font-size: 20px; 
-                color: #F8F8F8;
-            ">
-                源代码分发，使用 linux-clear 的 archlinux 衍生系统。
-            </p>
+<body>
+    <nav>
+        <img src="assets/images/icon.svg" width="30" />
+        <span>
+            <a href="/">首页</a>
+            <a href="/download">下载</a>
+        </span>
+    </nav>
 
-            <a href="/download.html" style="
-                margin-left: 15px;
-                padding: 5px 12px 5px 12px;
-                font-size: 16px;
-                font-weight: bold;
-                background-color: #33BFEF;
-                border-radius: 100px;
-            ">
+    <header>
+        <div class="title">
+            Clear Arch
+        </div>
+        <div class="desc">
+            源代码分发，使用 linux-clear 的 archlinux 衍生系统。
+        </div>
+        <div class="download">
+            <a href="/download">
                 立即下载 Clear Arch
             </a>
-
         </div>
+    </header>
 
+    <main>
         <h3>介绍</h3>
         <p>这是网友“霧雨魔理沙”在2022年4月4日开始发起的项目，目的是分发一些开发人员喜欢的东西在一个新的发行版中。</p>
-        <p>我们预计将会提供<br>
-            - 一个使用pacman的包管理器<br>
-            - 一个完美兼容Debian等发行版的适配器<br>
-            - 一个完善的、可以在安装后使用的自定义脚本<br>
-            - 丰富的第三方源
+        <p>
+            我们预计将会提供：
+            <br />
+            • 一个使用pacman的包管理器
+            <br />
+            • 一个完美兼容Debian等发行版的适配器
+            <br />
+            • 一个完善的、可以在安装后使用的自定义脚本
+            <br />
+            • 丰富的第三方源
         </p>
 
-        <h3>下载</h3>
-        <p>我们暂时没有完成第一阶段的开发，没有也无法提供下载</p>
-
         <h3>联系我们</h3>
-        <p>我们目前使用QQ群交流,群号:637805111,成员目前均使用Arch<br>
-            <br>
-            本页面编撰者的电邮:jackeyz2022@mail.ru</p>
+        <p>
+            我们目前使用QQ群交流，群号：637805111，成员目前均使用Arch。<br />
+            <br />
+            本页面编撰者的电邮：jackeyz2022@mail.ru。
+        </p>
 
         <h3>开发进度</h3>
-        <p>- 安装脚本:完成时区、语言、用户创建<br>
-            - 适配器 未开始<br>
-            - 第三方源 未开始<br>
-            - 新包管理器 未开始</p>
+        <p>
+            • 安装脚本：完成时区、语言、用户创建
+            <br />
+            • 适配器 未开始
+            <br />
+            • 第三方源 未开始
+            <br />
+            • 新包管理器 未开始
+        </p>
+    </main>
 
-    </body>
+    <footer></footer>
+</body>
+
 </html>

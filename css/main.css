@@ -32,7 +32,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    padding: 0 5%;
+    padding: 0 16px;
     color: #F9F9F9;
     background: #2C3339;
 }
@@ -49,7 +49,7 @@ nav span a {
 }
 
 nav span a:not(:last-of-type) {
-    margin-right: 16px;
+    margin-right: 32px;
 }
 
 header {
@@ -72,8 +72,14 @@ header .title {
     font-size: 2.5rem;
 }
 
+header .desc {
+    font-size: 1.25rem;
+    line-height: 1.7rem;
+}
+
 header .download {
     padding: 8px 0;
+    font-weight: bold;
 }
 
 header .download a {
@@ -85,5 +91,6 @@ header .download a {
 
 main {
     padding: 0.67rem 5%;
+    line-height: 1.5rem;
     color: #252525;
 }

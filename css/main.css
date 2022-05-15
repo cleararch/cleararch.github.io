@@ -91,6 +91,7 @@ header .download a {
     background: #33BFEF;
     border-radius: 50px;
     text-decoration: none;
+    box-shadow: 2px 2px 5px #31A9D2;
 }
 
 main {
@@ -103,6 +104,7 @@ main .box {
     padding: 0.67rem 2rem;
     line-height: 1.7rem;
     background: #F9F9F9;
+    box-shadow: 2px 2px 10px #DFDFDF;
 }
 
 main .box:not(:last-of-type) {

@@ -8,8 +8,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon" />
-    <title>404 | Clear Arch</title>
+    <title>页面不存在 | Clear Arch</title>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style type="text/css">
+        header {
+            height: calc(100vh - 50px);
+            text-align: center;
+        }
+
+        header .title {
+            font-size: 5rem;
+        }
+
+        header .back {
+            padding: 12px 0;
+            font-weight: bold;
+        }
+
+        header .back a {
+            padding: 12px 32px;
+            background: #33BFEF;
+            border-radius: 50px;
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,12 +41,18 @@
         </a>
         <span>
             <a href="/">主页</a>
-            <a href="">Wiki</a>
+            <a href="/wiki">Wiki</a>
             <a href="/download">下载</a>
         </span>
     </nav>
 
-    <header></header>
+    <header>
+        <div class="title">404</div>
+        <div class="tips">似乎你走丢了…</div>
+        <div class="back">
+            <a href="/">返回主页</a>
+        </div>
+    </header>
 </body>
 
 </html>

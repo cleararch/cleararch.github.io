@@ -27,16 +27,12 @@ a {
     transition: color 0.2s;
 }
 
-p {
-    margin: 2rem 0;
-}
-
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    padding: 0 16px;
+    padding: 0 1rem;
     color: #F9F9F9;
     background: #2C3339;
 }
@@ -49,63 +45,67 @@ nav span {
 
 nav span a {
     display: inline-block;
+    line-height: 50px;
     text-decoration: none;
 }
 
 nav span a:not(:last-of-type) {
-    margin-right: 32px;
+    margin-right: 2rem;
 }
 
 header {
-    padding: 75px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 350px;
+    padding: 25px 5%;
     color: #F9F9F9;
-    background: url("/assets/images/blueprint.png") no-repeat right;
+    background: url("/assets/images/blueprint.png") no-repeat right bottom;
     background-size: cover;
 }
 
-header>*:first-of-type {
-    margin-bottom: 25px;
-}
-
-header>*:last-of-type {
-    margin-top: 45px;
+header>* {
+    margin: 2rem 0;
 }
 
 header .title {
+    margin-bottom: 25px;
     font-weight: bold;
     font-size: 2.5rem;
 }
 
 header .desc {
     font-size: 1.25rem;
-    line-height: 1.7rem;
 }
 
 header .download {
-    padding: 8px 0;
+    padding: 0.5rem 0;
     font-weight: bold;
 }
 
 header .download a {
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     background: #33BFEF;
     border-radius: 50px;
     text-decoration: none;
 }
 
 main {
-    padding: 1rem 5%;
-    line-height: 1.7rem;
+    padding: 2rem 5%;
+    line-height: 1.5rem;
     color: #252525;
 }
 
 main .box {
     padding: 0.67rem 2rem;
-    line-height: 1.7rem;
     background: #F9F9F9;
-    box-shadow: 1px 1px 15px #DFDFDF;
+    box-shadow: 0 0 16px rgba(192, 192, 192, 0.5);
 }
 
 main .box:not(:last-of-type) {
     margin-bottom: 1rem;
+}
+
+main .box>* {
+    margin: 1.5rem 0;
 }

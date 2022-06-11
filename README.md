@@ -1,2 +1,2 @@
 # cleararch.github.io
-官网跳转页
+官网(Github Page版本)
